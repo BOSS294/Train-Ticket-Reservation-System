@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Railway Ticket Reservation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Reservation Form -->
+    <form id="reservationForm">
+        <div class="form-row">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-row">
+          <label for="age">Age:</label>
+          <input type="number" id="age" required>
+        </div>
+        <div class="form-row">
+          <label for="time">Time:</label>
+          <select id="time">
+            <option value="9:00">9:00</option>
+            <option value="10:00">10:00</option>
+            <!-- Add more constant times -->
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="gender">Gender:</label>
+          <select id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-row">
+          <label for="date">Date of Booking:</label>
+          <input type="date" id="date" required>
+        </div>
+        <div class="form-row">
+          <label for="trainName">Train Name:</label>
+          <select id="trainName">
+            <option value="Random Train 1">Random Train 1</option>
+            <option value="Random Train 2">Random Train 2</option>
+            <!-- Add more train names -->
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="from">From:</label>
+          <select id="from">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <!-- Add more states -->
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="to">To:</label>
+          <select id="to">
+            <option value="Kolkata">Kolkata</option>
+            <option value="Chennai">Chennai</option>
+            <!-- Add more states -->
+          </select>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

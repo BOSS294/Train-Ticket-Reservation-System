@@ -1,0 +1,79 @@
+/* Add this to styles.css */
+
+/* Background image for the form page */
+body {
+    background-image: url('bg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+/* Rectangle shape for the form */
+#reservationForm {
+    max-width: 500px;
+    padding: 20px;
+    border: 2px solid #ffd700; /* Golden border */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-row label,
+  .form-row input,
+  .form-row select {
+    flex: 1;
+  }
+  
+  /* Additional styling for the button */
+  #reservationForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #reservationForm button:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  #reservationForm label,
+  #reservationForm input,
+  #reservationForm select,
+  #reservationForm button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #reservationForm button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #reservationForm button:hover {
+    background-color: #2980b9;
+  }
+  
