@@ -1,10 +1,10 @@
 # Train-Ticket-Reservation-System
-This is only a practice project made for fun only.
+This is only a practice project made for fun.
 
 Version --> 1.0
 
 Home Page 
-![image](https://github.com/BOSS294/Train-Ticket-Reservation-System/assets/72921622/562eb518-6e6e-4490-a3b5-b8e08b5e7884)
+![image](https://github.com/BOSS294/Train-Ticket-Reservation-System/assets/72921622/27ffcbde-846a-403c-8ae2-ea4f87da877e)
 
 Ticket Summary Page ( JS )
 
